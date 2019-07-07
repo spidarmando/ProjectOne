@@ -7,10 +7,102 @@ body{
 }
 
 .container{
-	width:80%;
+	width:inherit;
 	margin:auto;
-	overflow:hidden;
+    overflow:hidden;
+        font-size: 16px;
+        max-width: 1200px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+.h3, h3 {
+    font: 21.33px Sentinel,Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.6em;
 }
+
+.font-sm {
+    box-sizing:inherit;
+}
+
+/* .container-fluid{
+    width:100%;
+    padding-left:1rem;
+    padding-right:1rem
+}
+
+.container-fluid>.row{
+    margin-left:-1rem;
+    margin-right:-1rem
+}
+
+@media (min-width:768px){
+    .container-fluid>.row{
+        margin-left:-2rem;margin-right:-2rem
+    }
+    }
+
+@media (min-width:992px){
+    .container-fluid>.row{
+        margin-left:-3rem;
+        margin-right:-3rem}
+    }
+
+@media (min-width:768px){
+.container-fluid{width:100%;
+            padding-left:2rem;
+            padding-right:2rem
+        }
+.container-fluid>.row{
+    margin-left:-1rem;margin-right:-1rem}
+}
+
+@media (min-width:768px) and (min-width:768px){
+.container-fluid>.row{
+    margin-left:-2rem;
+    margin-right:-2rem}
+    }
+@media (min-width:768px) and (min-width:992px){
+.container-fluid>.row{
+    margin-left:-3rem;
+    margin-right:-3rem}
+}
+
+@media (min-width:992px){
+.container-fluid{width:100%;
+    padding-left:3rem;
+    padding-right:3rem}
+
+
+.container-fluid>.row{
+    margin-left:-1rem;
+    margin-right:-1rem}
+}
+
+@media (min-width:992px) and (min-width:768px){
+.container-fluid>.row{
+    margin-left:-2rem;
+    margin-right:-2rem}
+}
+
+@media (min-width:992px) and (min-width:992px){
+.container-fluid>.row{
+    margin-left:-3rem;
+    margin-right:-3rem}
+}
+
+@media (max-width:767px){
+.hidden-xs{
+    display:none!important;
+    min-height:0!important}
+}
+
+@media (min-width:768px) and (max-width:991px){
+.hidden-sm{
+    display:none!important;
+    min-height:0!important}
+} */
 
 a{
     text-decoration: none;
@@ -30,11 +122,14 @@ a:hover{
 
 #navbar ul{
 	padding:0;
-	list-style: none;
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom:10px;
 }
 
 #navbar li{
-	display:inline;
+    display:inline;
+
 }
 
 #navbar a{
@@ -67,7 +162,7 @@ a:hover{
 #centerfold{
 	background-image:url('../Pictures/camping.jpg');
 	background-position:center bottom;
-	min-height:300px;
+    min-height:300px;
 	margin-bottom:30px;
 	text-align: center;
 }
@@ -75,7 +170,8 @@ a:hover{
 #centerfold h1{
 	color:#fff;
 	font-size:50px;
-	line-height: 1.6em;
+    line-height: 1.6em;
+    margin-top:30px;
 }
 
 #centerfold small{
@@ -91,4 +187,23 @@ a:hover{
 #centerfold button{
     color: #fff;
     background-color: cyan;
+    border:none;
 }
+
+#site-features{
+    float:right;
+    box-sizing: border-box;
+    
+}
+
+.site-feature{
+    float:left;
+	width:30%;
+	padding:0 30px;
+}
+
+#site-features div.site-feature img.icon {
+    height: 67px;
+    margin-bottom: 15px;
+}
+
