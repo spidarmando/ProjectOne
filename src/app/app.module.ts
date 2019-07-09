@@ -4,9 +4,12 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { Mark } from './pages/mark/mark'
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Mark
   ],
   imports: [
     BrowserModule,
